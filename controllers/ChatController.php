@@ -57,14 +57,14 @@ class ChatController
         // 👉 Si es saludo PERO no es búsqueda → mostrar bienvenida
         if ($esSaludo && !$esBusqueda) {
 
-            $respuesta = " *¡Bienvenido a Inmobiliaria Serrano!*\n\n";
-            $respuesta .= " Te ayudamos a encontrar la propiedad ideal.\n\n";
-            $respuesta .= "*Puedes buscar así:*\n";
+            $respuesta = "👋 *¡Bienvenido a Inmobiliaria Serrano!*\n\n";
+            $respuesta .= "🏡 Te ayudamos a encontrar la propiedad ideal.\n\n";
+            $respuesta .= "🔎 *Puedes buscar así:*\n";
             $respuesta .= "• 'Casa en Tlaxcala'\n";
             $respuesta .= "• 'Terreno en Puebla'\n";
             $respuesta .= "• 'Departamento en Querétaro'\n\n";
-            $respuesta .= " O escribe:\n 'Hablar con asesor'\n\n";
-            $respuesta .= " *Inmobiliaria Serrano - Siempre la mejor opción*";
+            $respuesta .= "💬 O escribe:\n👉 'Hablar con asesor'\n\n";
+            $respuesta .= "✨ *Inmobiliaria Serrano - Siempre la mejor opción*";
 
             responder($respuesta);
             Mensaje::crear($cliente_id, $conversacion_id, $respuesta, 'bot');
