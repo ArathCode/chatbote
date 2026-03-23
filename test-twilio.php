@@ -7,7 +7,7 @@
 // Simular que viene POST de Twilio
 $_SERVER['REQUEST_METHOD'] = 'POST';
 //$_POST['Body'] = 'Busco una Casa en Tlaxcala de hasta 950000 pesos';
-$_POST['Body'] = 'casa en tlaxcala';
+$_POST['Body'] = 'casa puebla';
 
 
 

@@ -3,7 +3,7 @@ require_once __DIR__ . '/../database/conexion.php';
 
 class UsuarioSession {
 
-    const COOLDOWN_MINUTOS = 30; // Tiempo de desactivación: 30 minutos
+    const COOLDOWN_MINUTOS = 1; // Tiempo de desactivación: 5 minutos
 
     /**
      * Normaliza el número de teléfono (elimina prefijo "whatsapp:" y espacios)

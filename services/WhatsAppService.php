@@ -58,7 +58,7 @@ function enviarPorWhatsApp($telefonoDestino, $mensaje) {
     }
     
     // El número de Twilio debe estar configurado (número oficial del servicio)
-    $numeroTwilio = 'whatsapp:+525512345678'; // Cambiar por el número real de Twilio
+    $numeroTwilio = 'whatsapp:+14155238886'; // Cambiar por el número real de Twilio
     
     $url = 'https://api.twilio.com/2010-04-01/Accounts/' . TWILIO_ACCOUNT_SID . '/Messages.json';
     
