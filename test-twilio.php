@@ -13,8 +13,8 @@ $_POST['Body'] = 'casa puebla';
 
 
 
-$_POST['From'] = 'whatsapp:+5216899999998';
-$_POST['To'] = 'whatsapp:+525512345678';
+$_POST['From'] = 'whatsapp:+5215631580844';
+$_POST['To'] = 'whatsapp:+5212481557389';
 
 // Incluir el index
 require_once __DIR__ . '/index.php';
